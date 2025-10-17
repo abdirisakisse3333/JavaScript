@@ -19,7 +19,16 @@ console.log(names[1])
       names.unshift("nasro");
       
   //  pop = removes from ends
-      names.pop('siciid');
+      names.pop()
       
   //  shift = removes from start
-      names.shift("nasro");    
+      names.shift() 
+
+      names.splice(2, 0, 'nimco')
+
+
+    // how to print one by one 
+     // X standard for one name 
+      names.forEach((x) => console.log(x + " is nice"));
+      
+
